@@ -1,23 +1,26 @@
 # Morse Code Translator
 
-A command-line tool written in Rust that translates text to Morse code and vice versa.
+A terminal-based interactive Morse code translator written in Rust.
 
 ## Features
 
-- Translate text to Morse code and vice versa.
+- Real-time translation between text and Morse code
+- Interactive terminal user interface
+- Color-coded display for improved usability
 - Support for letters (A-Z), numbers (0-9), and common punctuation marks
 
 ## Usage
 
-To translate text to Morse code:
+To run the Morse Code Translator:
+
 ```
-cargo run -- to-morse "Hello, World!"
+cargo run
 ```
 
-To translate Morse code to text:
-```
-cargo run -- from-morse ".... . .-.. .-.. --- --..--  .-- --- .-. .-.. -.. -.-.--"
-```
+Once running:
+- Type in either the Text or Morse field
+- Press TAB to switch between fields
+- Press ESC to exit the application
 
 ## Installation
 
@@ -29,4 +32,4 @@ cd morse-code-translator
 cargo build --release
 ```
 
-The executable will be available in `target/release/morse_code_translator`.
+The exe will be available in `target/release/morse_code_translator`.
