@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use crate::utils::{MorseError, validate_morse_input, validate_text_input};
 
 pub struct MorseTranslator {
     to_morse: HashMap<char, String>,
@@ -78,17 +79,62 @@ impl MorseTranslator {
         MorseTranslator { to_morse, from_morse }
     }
 
-    pub fn to_morse(&self, text: &str) -> String {
-        text.to_uppercase()
+    pub fn to_morse(&self, text: &str) -> Result<String, MorseError> {
+        validate_text_input(text)?;
+        Ok(text.to_uppercase()
             .chars()
-            .map(|c| self.to_morse.get(&c).cloned().unwrap_or_else(|| c.to_string()))
+            .map(|c| {
+                if c.is_whitespace() {
+                    " ".to_string()
+                } else {
+                    self.to_morse.get(&c).cloned().unwrap_or_else(|| c.to_string())
+                }
+            })
             .collect::<Vec<String>>()
             .join(" ")
+            .replace("  ", " "))  // Remove any double spaces
     }
 
-    pub fn from_morse(&self, morse: &str) -> String {
-        morse.split_whitespace()
-            .map(|code| self.from_morse.get(code).cloned().unwrap_or(' '))
-            .collect()
+    pub fn from_morse(&self, morse: &str) -> Result<String, MorseError> {
+        validate_morse_input(morse)?;
+        Ok(morse.split("  ")
+            .map(|word| {
+                word.split_whitespace()
+                    .filter_map(|code| self.from_morse.get(code).cloned())
+                    .collect::<String>()
+            })
+            .collect::<Vec<String>>()
+            .join(" "))
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_to_morse() {
+        let translator = MorseTranslator::new();
+        assert_eq!(translator.to_morse("SOS").unwrap(), "... --- ...");
+        assert_eq!(translator.to_morse("Hello, World!").unwrap(), ".... . .-.. .-.. --- --..--  .-- --- .-. .-.. -.. -.-.--");
+    }
+
+    #[test]
+    fn test_from_morse() {
+        let translator = MorseTranslator::new();
+        assert_eq!(translator.from_morse("... --- ...").unwrap(), "SOS");
+        assert_eq!(translator.from_morse(".... . .-.. .-.. ---  .-- --- .-. .-.. -..").unwrap(), "HELLO WORLD");
+    }
+
+    #[test]
+    fn test_invalid_text_input() {
+        let translator = MorseTranslator::new();
+        assert!(translator.to_morse("Hello™").is_err());
+    }
+
+    #[test]
+    fn test_invalid_morse_input() {
+        let translator = MorseTranslator::new();
+        assert!(translator.from_morse(".... . .-.. .-.. --- ***").is_err());
     }
 }
