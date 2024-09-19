@@ -1,7 +1,0 @@
-﻿  MafiaCard.cpp
-C:\Users\PC GAMER\source\repos\MafiaCard\MafiaCard.cpp(33,23): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
-C:\Users\PC GAMER\source\repos\MafiaCard\MafiaCard.cpp(33,23): warning C4244:         with
-C:\Users\PC GAMER\source\repos\MafiaCard\MafiaCard.cpp(33,23): warning C4244:         [
-C:\Users\PC GAMER\source\repos\MafiaCard\MafiaCard.cpp(33,23): warning C4244:             _Rep=std::chrono::system_clock::rep
-C:\Users\PC GAMER\source\repos\MafiaCard\MafiaCard.cpp(33,23): warning C4244:         ]
-  MafiaCard.vcxproj -> C:\Users\PC GAMER\source\repos\MafiaCard\x64\Debug\MafiaCard.exe

@@ -1,1 +1,0 @@
-C:\Users\PC\ GAMER\source\repos\morse-code-translator\target\debug\libmorse_code_translator.rlib: C:\Users\PC\ GAMER\source\repos\morse-code-translator\src\cli.rs C:\Users\PC\ GAMER\source\repos\morse-code-translator\src\lib.rs C:\Users\PC\ GAMER\source\repos\morse-code-translator\src\translator.rs C:\Users\PC\ GAMER\source\repos\morse-code-translator\src\utils.rs
