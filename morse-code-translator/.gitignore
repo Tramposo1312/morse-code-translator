@@ -1,0 +1,22 @@
+# Rust specific ignores
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+
+# Debug files
+*.pdb
+
+README.local.md
