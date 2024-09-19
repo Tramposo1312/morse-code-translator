@@ -1,0 +1,16 @@
+C:\Users\PC GAMER\source\repos\PawnExtension\bin\Debug\PawnExtension.dll
+C:\Users\PC GAMER\source\repos\PawnExtension\bin\Debug\PawnExtension.pdb
+C:\Users\PC GAMER\source\repos\PawnExtension\bin\Debug\PawnExtension.pkgdef
+C:\Users\PC GAMER\source\repos\PawnExtension\bin\Debug\PawnExtension.vsix
+C:\Users\PC GAMER\source\repos\PawnExtension\bin\Debug\extension.vsixmanifest
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.csproj.AssemblyReference.cache
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\_EmptyResource.resources
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.csproj.GenerateResource.cache
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.csproj.CoreCompileInputs.cache
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.dll
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.pdb
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.pkgdef
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\PawnExtension.latest.pkgdef
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\extension.vsixmanifest
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\files.json
+C:\Users\PC GAMER\source\repos\PawnExtension\obj\Debug\createTemplateManifests.cache

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC GAMER\\source\\repos\\MafiaCard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27A57F92-5153-4218-8B89-3F393D165B4A}|MafiaCard.vcxproj|C:\\Users\\PC GAMER\\source\\repos\\MafiaCard\\MafiaCard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27A57F92-5153-4218-8B89-3F393D165B4A}|MafiaCard.vcxproj|solutionrelative:MafiaCard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MafiaCard.cpp",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\MafiaCard\\MafiaCard.cpp",
+              "RelativeDocumentMoniker": "MafiaCard.cpp",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\MafiaCard\\MafiaCard.cpp",
+              "RelativeToolTip": "MafiaCard.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-23T16:47:55.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

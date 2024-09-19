@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\vspawnclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|solutionrelative:vspawnclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\vspawnclassifierprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|solutionrelative:vspawnclassifierprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|solutionrelative:source.extension.vsixmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}",
+      "RelativeMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|solutionrelative:source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\vspawnpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD351AA-42A4-413E-BE6F-DD062894692D}|VSPawn.csproj|solutionrelative:vspawnpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VSPawnClassifierProvider.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnClassifierProvider.cs",
+              "RelativeDocumentMoniker": "VSPawnClassifierProvider.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnClassifierProvider.cs",
+              "RelativeToolTip": "VSPawnClassifierProvider.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:18:15.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VSPawnClassifier.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnClassifier.cs",
+              "RelativeDocumentMoniker": "VSPawnClassifier.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnClassifier.cs",
+              "RelativeToolTip": "VSPawnClassifier.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA9wDwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:17:38.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "source.extension.vsixmanifest [Design]",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest [Design]",
+              "RelativeToolTip": "source.extension.vsixmanifest [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-09-13T13:12:37.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VSPawnPackage.cs",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnPackage.cs",
+              "RelativeDocumentMoniker": "VSPawnPackage.cs",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\VSPawnPackage.cs",
+              "RelativeToolTip": "VSPawnPackage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:12:32.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "source.extension.vsixmanifest",
+              "DocumentMoniker": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
+              "ToolTip": "C:\\Users\\PC GAMER\\source\\repos\\VSPawn\\source.extension.vsixmanifest",
+              "RelativeToolTip": "source.extension.vsixmanifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-09-13T13:12:31.263Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
