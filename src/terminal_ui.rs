@@ -24,25 +24,31 @@ pub fn run_terminal_ui() -> crossterm::Result<()> {
             SetForegroundColor(Color::Blue),
         )?;
         println!("Morse Code Translator (Press ESC to exit, TAB to switch fields)");
-        execute!(stdout(), ResetColor)?;
         println!();
 
         // Text field
         if active_field == 0 {
             execute!(stdout(), SetForegroundColor(Color::Blue))?;
+            print!("Text:  ");
+            execute!(stdout(), SetForegroundColor(Color::Green))?;
+        } else {
+            execute!(stdout(), SetForegroundColor(Color::White))?;
+            print!("Text:  ");
         }
-        print!("Text:  ");
-        println!("{}", text);
-        execute!(stdout(), ResetColor)?;
+        println!("{}", if text.is_empty() { "<type here>" } else { &text });
 
         // Morse field
         if active_field == 1 {
             execute!(stdout(), SetForegroundColor(Color::Blue))?;
+            print!("Morse: ");
+            execute!(stdout(), SetForegroundColor(Color::Green))?;
+        } else {
+            execute!(stdout(), SetForegroundColor(Color::White))?;
+            print!("Morse: ");
         }
-        print!("Morse: ");
-        println!("{}", morse);
-        execute!(stdout(), ResetColor)?;
+        println!("{}", if morse.is_empty() { "<type here>" } else { &morse });
 
+        execute!(stdout(), ResetColor)?;
         stdout().flush()?;
 
         match read()? {
@@ -51,27 +57,27 @@ pub fn run_terminal_ui() -> crossterm::Result<()> {
                 KeyCode::Tab => {
                     active_field = 1 - active_field;
                     if active_field == 0 {
-                        text = translator.from_morse(&morse).unwrap_or_else(|_| text.clone());
+                        text = translator.from_morse(&morse);
                     } else {
-                        morse = translator.to_morse(&text).unwrap_or_else(|_| morse.clone());
+                        morse = translator.to_morse(&text);
                     }
                 },
                 KeyCode::Backspace => {
                     if active_field == 0 {
                         text.pop();
-                        morse = translator.to_morse(&text).unwrap_or_else(|_| morse.clone());
+                        morse = translator.to_morse(&text);
                     } else {
                         morse.pop();
-                        text = translator.from_morse(&morse).unwrap_or_else(|_| text.clone());
+                        text = translator.from_morse(&morse);
                     }
                 },
                 KeyCode::Char(c) => {
                     if active_field == 0 {
                         text.push(c);
-                        morse = translator.to_morse(&text).unwrap_or_else(|_| morse.clone());
+                        morse = translator.to_morse(&text);
                     } else {
                         morse.push(c);
-                        text = translator.from_morse(&morse).unwrap_or_else(|_| text.clone());
+                        text = translator.from_morse(&morse);
                     }
                 },
                 _ => {}

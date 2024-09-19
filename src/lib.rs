@@ -1,3 +1,3 @@
 pub mod translator;
 pub mod utils;
-pub mod cli;
+pub mod terminal_ui;

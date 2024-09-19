@@ -12,5 +12,4 @@ name = "morse_code_translator"
 path = "src/main.rs"
 
 [dependencies]
-clap = { version = "3.0", features = ["derive"] }
 crossterm = "0.25"
