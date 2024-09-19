@@ -11,10 +11,14 @@ pub struct Cli {
 pub enum Commands {
     /// Translate text to Morse code
     ToMorse {
+        /// The text to translate
         text: String,
     },
     /// Translate Morse code to text
     FromMorse {
+        /// The Morse code to translate
         morse: String,
     },
+    /// Run the interactive terminal UI
+    Interactive,
 }

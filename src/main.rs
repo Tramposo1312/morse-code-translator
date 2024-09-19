@@ -1,11 +1,13 @@
 mod translator;
 mod cli;
 mod utils;
+mod terminal_ui;
 
 use clap::Parser;
-use crate::translator::MorseTranslator;
-use crate::cli::{Cli, Commands};
-use crate::utils::handle_error;
+use morse_code_translator::translator::MorseTranslator;
+use morse_code_translator::cli::{Cli, Commands};
+use morse_code_translator::utils::handle_error;
+use terminal_ui::run_terminal_ui;
 
 fn main() {
     let cli = Cli::parse();
@@ -22,6 +24,11 @@ fn main() {
             match translator.from_morse(morse) {
                 Ok(text) => println!("{}", text),
                 Err(e) => handle_error(e),
+            }
+        }
+        Some(Commands::Interactive) => {
+            if let Err(e) = run_terminal_ui() {
+                handle_error(e);
             }
         }
         None => {
